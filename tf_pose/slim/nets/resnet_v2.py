@@ -51,10 +51,11 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
+import tf_slim as slim
 
 from tf_pose.slim.nets import resnet_utils
 
-slim = tf.contrib.slim
+# slim = tf.contrib.slim
 resnet_arg_scope = resnet_utils.resnet_arg_scope
 
 

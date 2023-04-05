@@ -39,8 +39,9 @@ from __future__ import print_function
 
 import collections
 import tensorflow as tf
+import tf_slim as slim
 
-slim = tf.contrib.slim
+# slim = tf.contrib.slim
 
 
 class Block(collections.namedtuple('Block', ['scope', 'unit_fn', 'args'])):
